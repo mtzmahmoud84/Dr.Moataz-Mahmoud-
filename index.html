@@ -140,18 +140,9 @@
               <circle cx="260" cy="260" r="222" fill="none" stroke="currentColor" stroke-width="1" opacity=".6"/>
             </svg>
 
-            <!--
-              ✏️ عدّل هنا: صورة الطبيب
-              1) ضع الصورة داخل مجلد images (مثال: images/doctor.jpg)
-              2) غيّر data-photo="" إلى data-photo="images/doctor.jpg"
-              وسيستبدل الموقع المساحة أدناه بالصورة تلقائيًا. الأبعاد المناسبة: 800×1000 بكسل تقريبًا.
-            -->
-            <figure class="portrait" data-photo="">
-              <svg class="portrait-silhouette" viewBox="0 0 400 500" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
-                <circle cx="200" cy="205" r="62" fill="#fff" opacity=".65"/>
-                <path d="M62 500c0-101 61-160 138-160s138 59 138 160z" fill="#fff" opacity=".65"/>
-              </svg>
-              <figcaption class="portrait-note">مساحة مخصصة لصورة الطبيب</figcaption>
+            <!-- ✏️ لتغيير الصورة: استبدل الملف images/doctor.jpg (نفس الصورة مستخدمة في قسم «عن الطبيب») -->
+            <figure class="portrait">
+              <img src="images/doctor.jpg" alt="د. معتز محمود رياض، استشاري جراحة العظام" width="864" height="1080" fetchpriority="high" decoding="async">
             </figure>
           </div>
         </div>
